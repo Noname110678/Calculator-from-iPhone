@@ -1,0 +1,63 @@
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-template-rows: repeat(5,50px);
+    grid-gap: 8px;
+
+}
+
+button {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    transition: 0.25s;
+}
+
+.app {
+    background-color: black;
+    width: 225px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.orange {
+    background-color: #FE9E09;
+    color: white;
+}
+
+.dgrey {
+    background-color: #333333;
+    color: white;
+}
+
+.grey {
+    background-color: #A5A5A5;
+}
+
+button:nth-child(17){
+    grid-column: span 2;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.userNum {
+    text-align: right;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 30px;
+    caret-color: black;
+}
+
+.userInput {
+    padding-top: 50px;
+}
+
+button:active{
+    transform: scale(0.92);
+} 
